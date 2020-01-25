@@ -2,7 +2,7 @@
 
 Powerpoint slides: https://docs.google.com/presentation/d/1b2iTztlc7klnzxOOxwGk6fqruVa9xCwgwMD7EabDb34/edit?usp=sharing
 
-This Datathon2020 project by Brandon and Irpan focuses on trying to predict divorces given a set of questionnaire answers.  We utilize an artificial neural network with two dense layers to output a decimal between 0.5 and 1.  This decimal is representative of how likely a divorce will happen.  In general, any values exceeding 0.75 indicates a divorce in the immediate future.  Any values below indicates that the couple will be suriving.  In this way, we are able to convert the problem from a regression problem back into a classification problem.  
+This Datathon2020 project by Brandon and Irpan focuses on trying to predict divorces given a set of questionnaire answers.  We utilize an artificial neural network with two dense layers to output a decimal between 0.5 and 1.  This decimal is representative of how likely a divorce will happen.  In general, any values exceeding 0.75 indicates a potential divorce in the future.  Any values below 0.75 indicates that the couple are unlikely to divorce.  In this way, we are able to convert the problem from a regression problem back into a classification problem.  
 
 The external libraries we used are called "Tensor" (not TensorFlow), from the MyGrad folders created by Ryan Soklaski.  I am unable to upload the entire library but our jupyter notebook makes extensive use of this Tensor library. 
 
